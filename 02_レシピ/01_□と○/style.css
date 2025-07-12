@@ -1,13 +1,41 @@
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: black;
+/* 形の設定　*/
+.rectangle {
+  width: 150px;
+  height: 80px;
+  background-color: teal;
+  transition: all 0.5s;
 }
 
+/* 変形の設定　*/
 .rounded {
   border-radius: 50px;
 }
 
-.transition {
-  transition: all 1s;
+.colored {
+  background-color: crimson;
+}
+
+.large {
+  width: 200px;
+  height: 200px;
+}
+
+.rotated {
+  transform: rotate(45deg);
+}
+
+.animated {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
