@@ -1,0 +1,23 @@
+/* 最初の形：四角（□） */
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+/* 丸（○） */
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+/* 三角（▼） */
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid black;
+}
